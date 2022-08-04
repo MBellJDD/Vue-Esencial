@@ -1,6 +1,6 @@
 <template>
-    <div enter-class="MyComponent">
-        
+    <div class="MyComponent">
+     <h1>Mi componente funciona</h1>   
     </div>
 </template>
 
@@ -16,5 +16,7 @@ export default {
 </script>
 
 <style>
-    
+   h1{
+    color: rgb(114, 20, 158);
+   } 
 </style>

@@ -1,6 +1,7 @@
 <!-- eslint-disable vue/no-unused-components -->
 <template>
   <div id="app">
+    <MyComponent/>
   </div>
 </template>
 
