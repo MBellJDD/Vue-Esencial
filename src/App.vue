@@ -1,17 +1,19 @@
+<!-- eslint-disable vue/no-unused-components -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyComponent from './components/MyComponent.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    name: "App",
+    components: {
+      // eslint-disable-next-line vue/no-unused-components
+      MyComponent
+    }
+};
 </script>
 
 <style>
